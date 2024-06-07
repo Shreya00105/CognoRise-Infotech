@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const addTaskBtn = document.getElementById("addTaskBtn");
     const taskList = document.getElementById("taskList");
 
-    // Load tasks from local storage
+    
     loadTasks();
 
     addTaskBtn.addEventListener("click", () => {
